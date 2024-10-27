@@ -1,0 +1,16 @@
+main: wtf.n1zamu.presents.NPresents
+name: NPresents
+version: 1.0
+author: n1zamu
+api-version: 1.13
+website: https://github.com/n1zamu/
+permissions:
+  nPresent:
+    clear:
+    reload:
+    edit:
+    bypass:
+    admin:
+commands:
+  nPresent:
+

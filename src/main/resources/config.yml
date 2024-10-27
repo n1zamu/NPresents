@@ -1,0 +1,47 @@
+cooldownForNew: true # Выдавать кд на ломание новичкам
+timeForBreak: 900 # Время для новичков чтобы начать ломать подарки
+reloadOnQuit: false # Сбрасывать кд на ломание при перезаходе
+database: "SQLite" # YAML и SQLite доступные типы
+finalReward: true # Финальная награда
+finalRewardCommand: "p give %player% 1500" # Команда для финальной награды
+time: # Названия времени в сообщениях
+  days: "дней"
+  hours: "часов"
+  minutes: "минут"
+  seconds: "секунд"
+messages: # Сообщения
+  rejoinToStart: "&6Хэллоуин &7» &cПерезайди чтобы начать отсчёт!"
+  successfullyCleared: "&6Хэллоуин &7» &aБаза данных успешно очищена!"
+  giveUsage: "&6Хэллоуин &7» Использование &f/nPresent give <player> <command>"
+  usage: "&6Хэллоуин &7» Использование &f/nPresent give/edit/clear/reload"
+  noPerm: "&6Хэллоуин &7» &cНедостаточно прав"
+  reloaded: "&6Хэллоуин &7» &aКонфиг был перезагружен!"
+  cantBreak: "&6Хэллоуин &7» &fНеобходимо отыграть еще &6%time% &fперед сбором подарка"
+  editCanceled: "&6Хэллоуин &7» &aРедактирование было выключено!"
+  editEnabled: "&6Хэллоуин &7» &aРедактирование было включено!"
+  presentRemoved: "&6Хэллоуин &7» &aПодарок удален!"
+  alreadyCollected: "&6Хэллоуин &7» &cВы уже собирали этот подарок!"
+  finalRewardMessage:
+  - "&6Хэллоуин &7» &aВы собрали все подарки!"
+reward:
+  sendMessage: true
+  sendTitle: true
+  titleName: "&6&lВы нашли тыкву!"
+  titleSubname: "&fНайдено %playerPresents% из %totalPresents%"
+  message:
+    - "&6&l┌"
+    - "&6&l| &6Вы нашли тыкву!"
+    - "&6&l| &fВаша награда:"
+    - "&6&l|  &e2.000 монет"
+    - "&6&l└"
+  playSound: true
+  sound: "ENTITY_FIREWORK_ROCKET_BLAST"
+  animation: true
+  animationParticle: "FLAME"
+present: # Настройка подарка
+  name: "&6Хэллоуинская Тыква"
+  texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhjNmI0ZmFhMzU0MTYyZjMzNDc2ZTZkMzQ1NDk2ZGFhM2ZmYzc2MDFiZGU3MjRmY2Q0OTcwODA3YjFmNzk1YyJ9fX0="
+  lore:
+    - "&fПри ломании будет использована команда:"
+    - "&6%command%"
+    - "&fСчастливого &6Хэллоуина&f!"
