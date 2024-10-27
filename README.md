@@ -32,7 +32,7 @@ NPresent — это захватывающий плагин, предназна�
 ![YAML](https://img.shields.io/badge/-YAML-FAA185?style=for-the-badge&logo=yaml&logoColor=0000CD)
 
 ## Screenshots 📸
-![Example](https://github.com/n1zamu/NPresents/blob/main/screenshots/example.gif)
+![Example](https://github.com/n1zamu/NPresents/blob/main/screenshot/example.gif)
 
 ### Installation 🌙
 
